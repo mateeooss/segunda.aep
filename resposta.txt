@@ -1,0 +1,17 @@
+1)encapsulamente é extamanete a maneira que seu atributo ou metodo pode ser acessado, por exemplo em um atributo encapsulado do tipo private, podera ser acessado somente pela sua propria classe.
+Por tanto, podemos chegar a conclusão que, o encapsulamento com diz com a segurança e a proteção dos atributos e metodos, especificando quem pode ou não acessalos, reforçando assim sua segurança
+
+public class paciente{
+   public String nome;
+   private String cpf;
+   
+   
+   public String retornaCpf(){
+      return this.cpf;
+   }
+
+}
+ Como mostrado no exemplo acima, o nome das instancias criadas pode ser acessada por todo o sistema, mas o cpf só pode ser acessado por meio do metodo "retornaCpf".
+ 
+ 2)com a utilização de encapsulamento, a atribuição da mesma ocorre em todas instancias criadas apartir da classe, portanto qualquer alteração feita na classe sera atribuida aos objetos da mesma
+ 
